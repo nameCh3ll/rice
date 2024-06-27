@@ -1,0 +1,104 @@
+# import = [
+#   # "~/.config/alacritty/themes/ayu_dark.toml",
+#   # "~/.config/alacritty/themes/doom_one.toml",
+#   # "~/.config/alacritty/catppuccin-latte.toml"
+#   # "~/.config/alacritty/themes/drakula.toml"
+# ]
+
+live_config_reload = true
+
+[env]
+TERM = "alacritty"
+
+[font]
+size = 12.0
+
+[font.bold]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Regular"
+
+[window]
+decorations = "full"
+dynamic_padding = false
+
+[window.padding]
+x = 0
+y = 0
+
+[colors.primary]
+background = "0x0A0E14"
+foreground = "0xB3B1AD"
+
+[colors.normal]
+black = "0xEA6C73"
+red = "0xEA6C73"
+green = "0x91B362"
+yellow = "0xF9AF4F"
+blue = "0x53BDFA"
+magenta = "0xFAE994"
+cyan = "0x90E1C6"
+white = "0xC7C7C7"
+
+[colors.bright]
+black = "0x686868"
+red = "0xF07178"
+green = "0xC2D94C"
+yellow = "0xFFB454"
+blue = "0x59C2FF"
+magenta = "0xFFEE99"
+cyan = "0x95E6CB"
+white = "0xFFFFFF"
+
+[[keyboard.bindings]]
+key = "N"
+mods = "Command"
+action = "SpawnNewInstance"
+
+[[keyboard.bindings]]
+key = "Space"
+mods = "Alt"
+chars = " "
+
+[[keyboard.bindings]]
+key = "Back"
+mods = "Super"
+chars = "\u0015"
+
+[[keyboard.bindings]]
+key = "Left"
+mods = "Alt"
+chars = "\u001bb"
+
+[[keyboard.bindings]]
+key = "Right"
+mods = "Alt"
+chars = "\u001bf"
+
+[[keyboard.bindings]]
+key = "Left"
+mods = "Command"
+chars = "\u001bOH"
+mode = "AppCursor"
+
+[[keyboard.bindings]]
+key = "Right"
+mods = "Command"
+chars = "\u001bOF"
+mode = "AppCursor"
+
+[[keyboard.bindings]]
+key = "R"
+mods = "Command"
+chars = "\u001bR"

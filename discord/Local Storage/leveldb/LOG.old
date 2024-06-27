@@ -1,0 +1,5 @@
+2024/06/26-16:28:53.748 32ef Reusing MANIFEST /home/name_chell/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/06/26-16:28:53.748 32ef Recovering log #689
+2024/06/26-16:28:53.749 32ef Level-0 table #692: started
+2024/06/26-16:28:53.750 32ef Level-0 table #692: 27968 bytes OK
+2024/06/26-16:28:53.752 32ef Delete type=0 #689

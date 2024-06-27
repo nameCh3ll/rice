@@ -1,0 +1,75 @@
+echo "󰥰   $symbol_headphones$symbol_controller"
+square
+symbol_headphones_color="󰋌"
+vim:ft=dosini
+
+
+
+
+
+
+
+󰲙
+󱟛
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+󰮭
+
+󱟬
+;󰨢
+
+
+
+
+
+
+
+
+
+󰜃 󰤇
+󰝋
+󰝋
+󰨢
+󰝍
+󰝎
+󰝏
+󱡏
+󰦚
+  
+󱄔
+
+ramp-used-0 = 󰫃
+ramp-used-1 = 󰫄
+ramp-used-2 = 󰫅
+ramp-used-3 = 󰫆
+ramp-used-4 = 󰫇
+ramp-used-5 = 󰫈
+
+ramp-used-0 = "󰩰 󱐟 󱐟 󱐟 󱐟"
+ramp-used-1 = "󰩰 󱐟 󱐟 󱐟 "
+ramp-used-2 = "󰩰 󱐟  󱐠"
+ramp-used-3 = "󰩰 󱐟 󱐟 󱐠 󱐠"
+ramp-used-4 = "󰩰 󱐟  󱐠 󱐠"
+ramp-used-5 = "󰩰 󱐟 󱐠 󱐠 󱐠"
+ramp-used-6 = "󰩰  󱐠 󱐠 󱐠"
+ramp-used-7 = "󰩰 󱐠 󱐠 󱐠 󱐠"
