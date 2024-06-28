@@ -56,3 +56,10 @@
 2024-06-26T21:14:59.167Z 8: window.close win1
 2024-06-26T21:14:59.174Z 9: webContents.destroyed web1
 2024-06-26T21:14:59.175Z 10: window.closed win1
+2024-06-28T11:58:45.854Z 0: 
+
+----------------------------------------------
+2024-06-28T11:58:45.867Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.58"}, modulepath: /home/name_chell/.config/discord/0.0.58/modules
+2024-06-28T11:58:45.887Z 2: ✅ webContents.created web1 ""
+2024-06-28T11:58:45.892Z 3: ✅ window.created win1 "discord"
+2024-06-28T11:58:46.184Z 4: ✅ webContents.did-finish-load web1

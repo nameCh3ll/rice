@@ -1,5 +1,46 @@
-2024/06/26-16:28:53.748 32ef Reusing MANIFEST /home/name_chell/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2024/06/26-16:28:53.748 32ef Recovering log #689
-2024/06/26-16:28:53.749 32ef Level-0 table #692: started
-2024/06/26-16:28:53.750 32ef Level-0 table #692: 27968 bytes OK
-2024/06/26-16:28:53.752 32ef Delete type=0 #689
+2024/06/27-00:14:54.045 4f4 Reusing MANIFEST /home/name_chell/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/06/27-00:14:54.052 4f4 Recovering log #693
+2024/06/27-00:14:54.052 4f4 Reusing old log /home/name_chell/.config/discord/Local Storage/leveldb/000693.log 
+2024/06/27-00:15:55.150 4f4 Level-0 table #696: started
+2024/06/27-00:15:55.158 4f4 Level-0 table #696: 12173 bytes OK
+2024/06/27-00:15:55.159 4f4 Delete type=0 #693
+2024/06/27-00:18:57.386 4f4 Level-0 table #698: started
+2024/06/27-00:18:57.408 4f4 Level-0 table #698: 3141290 bytes OK
+2024/06/27-00:18:57.410 4f4 Delete type=0 #695
+2024/06/27-00:18:57.411 4f4 Compacting 4@0 + 2@1 files
+2024/06/27-00:18:57.421 4f4 Generated table #699@0: 12 keys, 2369578 bytes
+2024/06/27-00:18:57.445 4f4 Generated table #700@0: 95 keys, 3168228 bytes
+2024/06/27-00:18:57.445 4f4 Compacted 4@0 + 2@1 files => 5537806 bytes
+2024/06/27-00:18:57.446 4f4 compacted to: files[ 0 3 1 0 0 0 0 ]
+2024/06/27-00:18:57.446 4f4 Delete type=2 #687
+2024/06/27-00:18:57.446 4f4 Delete type=2 #688
+2024/06/27-00:18:57.447 4f4 Delete type=2 #698
+2024/06/27-00:18:57.447 4f4 Delete type=2 #690
+2024/06/27-00:18:57.447 4f4 Delete type=2 #696
+2024/06/27-00:18:57.447 4f4 Delete type=2 #692
+2024/06/27-00:22:31.503 4f4 Level-0 table #702: started
+2024/06/27-00:22:31.512 4f4 Level-0 table #702: 44179 bytes OK
+2024/06/27-00:22:31.514 4f4 Delete type=0 #697
+2024/06/27-00:34:55.143 4f4 Level-0 table #704: started
+2024/06/27-00:34:55.151 4f4 Level-0 table #704: 38135 bytes OK
+2024/06/27-00:34:55.154 4f4 Delete type=0 #701
+2024/06/27-01:18:55.151 4f4 Level-0 table #706: started
+2024/06/27-01:18:55.161 4f4 Level-0 table #706: 12311 bytes OK
+2024/06/27-01:18:55.164 4f4 Delete type=0 #703
+2024/06/27-01:52:55.148 4f4 Level-0 table #708: started
+2024/06/27-01:52:55.153 4f4 Level-0 table #708: 23951 bytes OK
+2024/06/27-01:52:55.159 4f4 Delete type=0 #705
+2024/06/27-01:52:55.160 4f4 Compacting 4@0 + 2@1 files
+2024/06/27-01:52:55.182 4f4 Generated table #709@0: 12 keys, 2369578 bytes
+2024/06/27-01:52:55.223 4f4 Generated table #710@0: 95 keys, 3168378 bytes
+2024/06/27-01:52:55.223 4f4 Compacted 4@0 + 2@1 files => 5537956 bytes
+2024/06/27-01:52:55.225 4f4 compacted to: files[ 0 3 1 0 0 0 0 ]
+2024/06/27-01:52:55.225 4f4 Delete type=2 #700
+2024/06/27-01:52:55.225 4f4 Delete type=2 #702
+2024/06/27-01:52:55.225 4f4 Delete type=2 #708
+2024/06/27-01:52:55.225 4f4 Delete type=2 #699
+2024/06/27-01:52:55.225 4f4 Delete type=2 #706
+2024/06/27-01:52:55.225 4f4 Delete type=2 #704
+2024/06/27-02:48:55.150 4f4 Level-0 table #712: started
+2024/06/27-02:48:55.162 4f4 Level-0 table #712: 9805 bytes OK
+2024/06/27-02:48:55.168 4f4 Delete type=0 #707

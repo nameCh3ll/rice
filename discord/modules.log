@@ -5156,3 +5156,13 @@
 2024-06-27T00:14:59.024Z [Modules] Host is up to date.
 2024-06-27T00:14:59.024Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
 2024-06-27T00:14:59.074Z [Modules] No module updates available.
+2024-06-28T11:58:45.709Z [Modules] Modules initializing
+2024-06-28T11:58:45.709Z [Modules] Distribution: remote
+2024-06-28T11:58:45.709Z [Modules] Host updates: enabled
+2024-06-28T11:58:45.709Z [Modules] Module updates: enabled
+2024-06-28T11:58:45.709Z [Modules] Module install path: /home/name_chell/.config/discord/0.0.58/modules
+2024-06-28T11:58:45.709Z [Modules] Module installed file path: /home/name_chell/.config/discord/0.0.58/modules/installed.json
+2024-06-28T11:58:45.710Z [Modules] Module download path: /home/name_chell/.config/discord/0.0.58/modules/pending
+2024-06-28T11:58:46.091Z [Modules] No updates to install
+2024-06-28T11:58:46.092Z [Modules] Checking for host updates.
+2024-06-28T11:58:46.134Z [Modules] Host update failed: Error: getaddrinfo EAI_AGAIN discord.com
