@@ -34,6 +34,7 @@ bspc rule -a discord desktop =  "^6"
 bspc rule -a heroic desktop =  "^7"
 bspc rule -a steam desktop = "7" 
 bspc rule -a neovide desktop = "^8"
-bspc rule -a "YouTube Music" desktop = "^9"
+bspc rule -a "stam_ap_0" desktop = "^9"
+bspc rule -a "YouTube Music" desktop = "^10"
 
 $HOME/.config/polybar/launch.sh &
