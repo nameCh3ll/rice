@@ -1,5 +1,5 @@
 #! /bin/sh
-
+# sadasd
 pgrep -x sxhkd > /dev/null || sxhkd &
 #1
 # 2
