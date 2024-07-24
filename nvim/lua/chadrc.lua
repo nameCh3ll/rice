@@ -3,15 +3,48 @@
 local M = {}
 
 local modes = {
+  ["no"] = { "NORMAL (no)", "Normal" },
+  ["nov"] = { "NORMAL (nov)", "Normal" },
+  ["noV"] = { "NORMAL (noV)", "Normal" },
+  ["noCTRL-V"] = { "NORMAL", "Normal" },
+  ["niI"] = { "NORMAL i", "Normal" },
+  ["niR"] = { "NORMAL r", "Normal" },
+  ["niV"] = { "NORMAL v", "Normal" },
+  ["ntT"] = { "NTERMINAL (ntT)", "NTerminal" },
+
+  ["vs"] = { "V-CHAR (Ctrl O)", "Visual" },
+  ["Vs"] = { "V-LINE", "Visual" },
+
+  ["ic"] = { "INSERT (completion)", "Insert" },
+  ["ix"] = { "INSERT completion", "Insert" },
+
   ["n"]  = {  "(ᴗ_ ᴗ。)",  "Normal"    }, -- normal
   ["nt"] = {  "(ᴗ_ ᴗ。)",  "NTerminal" }, -- normal in terminal
+  ["c"]  = {  "(ó﹏ò｡ )",  "Command"   },
+  ["s"] =  {  "(• ᴖ •｡)", "Select" },
+  ["R"]  = {  "( ,Ծ‸Ծ,)",  "Replace"   },
+  [""] = {  "( ·•᷄ࡇ •᷅)",  "Visual"    }, -- v-block
   ["v"]  = {  "(•̀ - •́ )",  "Visual"    }, -- visual
   ["V"]  = {  "(⊙ _ ⊙ )",  "Visual"    }, -- v-line
-  [""] = {  "( ·•᷄ࡇ •᷅)",  "Visual"    }, -- v-block
   ["i"]  = {  "( •̯́ ₃ •̯̀)",  "Insert"    }, -- insert
   ["t"]  = {  "( ⌐■_■ )",  "Terminal"  },
-  ["R"]  = {  "( ,Ծ‸Ծ,)",  "Replace"   },
-  ["c"]  = {  "(ó﹏ò｡ )",  "Command"   },
+
+  ["Rc"] = { "REPLACE (Rc)", "Replace" },
+  ["Rx"] = { "REPLACEa (Rx)", "Replace" },
+  ["Rv"] = { "V-REPLACE", "Replace" },
+  ["Rvc"] = { "V-REPLACE (Rvc)", "Replace" },
+  ["Rvx"] = { "V-REPLACE (Rvx)", "Replace" },
+
+  ["S"] = { "S-LINE", "Select" },
+  [""] = { "S-BLOCK", "Select" },
+  ["cv"] = { "COMMAND", "Command" },
+  ["ce"] = { "COMMAND", "Command" },
+  ["cr"] = { "COMMAND", "Command" },
+  ["r"] = { "PROMPT", "Confirm" },
+  ["rm"] = { "MORE", "Confirm" },
+  ["r?"] = { "CONFIRM", "Confirm" },
+  ["x"] = { "CONFIRM", "Confirm" },
+  ["!"] = { "SHELL", "Terminal" },
 }
 
 M.ui = {

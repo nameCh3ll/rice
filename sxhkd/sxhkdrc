@@ -1,5 +1,5 @@
 # terminal emulator
-super + Return
+alt + Return
 	alacritty
 
 # screenshot
@@ -7,89 +7,95 @@ Print
     flameshot gui
 
 # make sxhkd reload its configuration files:
-super + Escape
+alt + Escape
 	pkill -USR1 -x sxhkd
 
 # bspwm hotkeys
 
 # quit/restart bspwm
-super + alt + r
+alt + r
 	pkill -USR1 -x sxhkd; notify-send 'reload' -t 1500;bspc wm -r
 
 # close and kill
-super + {_,shift + } w
+alt + {_,shift + } w
   bspc node -{c,k}
 
 # alternate between the tiled and monocle layout
-alt + m
+super + m
 	bspc desktop -l next
 
 # send the newest marked node to the newest preselected node
-# super + y
+# alt + y
 #   bspc node newest.marked.local -n newest.!automatic.local
 
 # swap the current node and the biggest window
-# super + g
+# alt + g
 # 	bspc node -s biggest.window
 
 # state/flags
 
 # set the window state
-alt + {t, p, s, f}
+super + {t, p, s, f}
 	bspc node -t {tiled, pseudo_tiled, floating, fullscreen}
 
 # set the node flags
-# super + ctrl + {m,x,y,z}
+# alt + ctrl + {m,x,y,z}
 # 	bspc node -g {marked,locked,sticky,private}
 
 # focus/swap
 
 # focus the node in the given direction
-super + {_, shift + }{h, j, k, l}
-	bspc node -{f,s} {west,south,north,east}
+# alt + {_, shift + }{h, j, k, l}
+# 	bspc node -{f,s} {west,south,north,east}
 
 # focus the node for the given path jump
-super + {comma,period}
+alt + {comma,period}
 	bspc node -f @{first,second}
 
 # focus the next/previous window in the current desktop
-super + {_, ctrl + } c
+alt + {_, ctrl + } c
 	bspc node -f {next,prev}.local.!hidden.window
 
-# focus the next/previous desktop in the current monitor super + bracket{left,right}
+# focus the next/previous desktop in the current monitor alt + bracket{left,right}
 	# bspc desktop -f {prev,next}.local
 
 # focus the last node/desktop
-super + {grave,Tab}
+alt + {grave,Tab}
 	bspc {node,desktop} -f last
 
 # focus the klder or newer node in the focus history
-# super + {o,i}
+# alt + {o,i}
 # 	bspc wm -h off; \
 # 	bspc node {older,newer} -f; \
 # 	bspc wm -h on
 
-super + ctrl + {h, d, f, p, n, s, m}
-  {heroic, discord, firefox, firefox --private-window, neovide, steam, ~/youtube-music-bin/youtube-music.sh}
+alt + ctrl + {p, h, d, f, n, s, m}
+  { \
+    firefox --private-window, \
+    heroic, \
+    discord, \
+    firefox, \
+    neovide, \
+    steam, \
+    ~/youtube-music-bin/youtube-music.sh \
+  }
 
 # focus or send to the given desktop
-# super + {_,shift + } {1-4, f, d, s, h, a, n, y, m}
-# 	bspc {desktop -f,node -d} '^{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13}'
-
-super + {_,shift + } {1-4, f, d, s, n, g, m}
+alt + {_,shift + } {1-4, f, d, s, n, g, m}
 	bspc {desktop -f,node -d} '^{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}'
 # preselect
 
+
 # preselect the direction
-# super + ctrl + {h,j,k,l}
+# alt + ctrl + {h,j,k,l}
 # 	bspc node -p {west,south,north,east}
 
 # cancel the preselection for the focused node
-# super + ctrl + space
+# alt + ctrl + space
 # 	bspc node -p cancel
 
 # cancel the preselection for the focused desktop
-# super + ctrl + shift + space
+# alt + ctrl + shift + space
 # 	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
 
 # move/resize
@@ -103,11 +109,11 @@ super + {_,shift + } {1-4, f, d, s, n, g, m}
 # 	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
 
 # move a floating window
-# super + {h, j, k, l}
+# alt + {h, j, k, l}
 # 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
 #bluetootch(pods, geypad)
-super + {F1, F2, F3, F4}
+alt + {F1, F2, F3, F4}
   { \
     bluetoothctl connect A4:16:C0:94:C7:07, \
     bluetoothctl connect BC:C7:46:37:3A:19, \
@@ -116,13 +122,34 @@ super + {F1, F2, F3, F4}
   }
 
 #wifi
-ctrl + super + w
+ctrl + alt + w
   nmcli d w r; nmcli d d wlan0; nmcli d w c name_Chell password 123456789
 
-#stalcraft
-super + q
-  notify-send 'stalcraft' "$(sh ~/custom_script/script_when_mission.sh)" -t 1500
+#stalcraft -------------------------------------- 
+alt + q
+  notify-send 'stalcraft' "$(sh ~/.config/custom_script/script_when_mission.sh)" -t 1500
+#stalcraft -------------------------------------- 
 
-#firefox tab 
-ctrl + y
-  firefox https://www.youtube.com
+
+#firefox tab ------------------------------------ 
+ctrl + {y}
+  { \
+    firefox https://www.youtube.com, \
+    firefox https://web.telegram.org/k/#774046588 \
+  }
+#firefox tab ------------------------------------ 
+
+#Keyboard Layout Change--------------------------
+# ctrl + q 
+#Keyboard Layout Change--------------------------
+
+#skroll -----------------------------------------
+XF86AudioLowerVolume
+  amixer -q sset Master 3%+
+
+XF86AudioRaiseVolume
+  amixer -q sset Master 3%-
+
+XF86AudioMute
+  amixer -q sset Master toggle 
+#skroll -----------------------------------------

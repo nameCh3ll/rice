@@ -8,6 +8,13 @@ return {
     },
   },
   {
+    "jose-elias-alvarez/null-ls.nvim",
+    event = "VeryLazy",
+    opts = function()
+      return require "configs.null-ls"
+    end,
+  },
+  {
     "stevearc/conform.nvim",
     -- event = 'BufWritePre', -- uncomment for format on save
     config = function()
@@ -30,6 +37,8 @@ return {
       ensure_installed = {
         "lua-language-server",
         "stylua",
+        "clang-format",
+        "clangd",
         "html-lsp",
         "css-lsp",
         "prettier",
