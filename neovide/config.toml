@@ -9,7 +9,7 @@ tabs = true
 theme = "auto"
 title-hidden = true
 vsync = true
-wsl = false
+wsl = true
 
 [font]
 size = 13
@@ -19,7 +19,6 @@ hinting = "full"
 family = "JetBrainsMono Nerd Font Propo"
 style = "W400"
 
-# You can set a different font for fallback
 [[font.normal]]
 family = "Noto Sans CJK SC" 
 style = "Normal"
@@ -28,9 +27,6 @@ style = "Normal"
 family = "JetBrainsMono Nerd Font Propo"
 style = "W400"
 
-# No need to specify fallback in every variant, if omitted or specified here
-# but not found, it will fallback to normal font with this weight which is bold
-# in this case.
-# [[font.bold]] 
-# family = "Noto Sans CJK SC"
-# style = "Bold"
+[[font.bold]] 
+family = "Noto Sans CJK SC"
+style = "Bold"

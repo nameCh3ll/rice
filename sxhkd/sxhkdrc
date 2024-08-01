@@ -56,8 +56,10 @@ alt + {comma,period}
 alt + {_, ctrl + } c
 	bspc node -f {next,prev}.local.!hidden.window
 
-# focus the next/previous desktop in the current monitor alt + bracket{left,right}
-	# bspc desktop -f {prev,next}.local
+# focus the next/previous
+# desktop in the current monitor 
+alt + bracket{left,right}
+	bspc desktop -f {prev,next}.local
 
 # focus the last node/desktop
 alt + {grave,Tab}

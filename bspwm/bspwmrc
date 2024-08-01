@@ -39,3 +39,5 @@ bspc rule -a "steam_app_1818450" desktop = "^9"
 bspc rule -a "YouTube Music" desktop = "^10"
 
 $HOME/.config/polybar/launch.sh &
+picom -b &
+sh ~/.fehbg

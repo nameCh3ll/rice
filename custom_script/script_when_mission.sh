@@ -3,8 +3,8 @@
 hours_minutes=$(date -d \
   "$(curl -s https://last-emission-stalcraft.vercel.app/RU | \
   grep -m1 -Eao "[[:digit:]:]{8,10}</article></main>" | \
-  cut -b -5) 3 hour" "+%H:%M")
-echo "$hours_minutes"
+  cut -b -5) 3 hour" "+%I:%M")
+
 sec=$(( 10#$(date "+%s") - 10#$(date "+%s" -d "$hours_minutes") ))
 
 hour=$(( sec / 3600 ))
