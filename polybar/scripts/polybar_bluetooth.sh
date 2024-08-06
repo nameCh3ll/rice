@@ -16,7 +16,6 @@ if echo $(bluetoothctl info BC:C7:46:37:3A:19) | grep -q "Connected: yes"; then
 
   battery_percent_str=$(upower -i /org/freedesktop/UPower/devices/battery_ps_controller_battery_bcoc7o46o37o3ao19 | grep "%")
   battery_percent_int=${battery_percent_str:25:-1}
-
 	if [ "$battery_percent_int" -gt 80 ]; then
 		symbol_controller="$enabled_color󰝍"
 	elif [ "$battery_percent_int" -gt 60 ]; then
@@ -28,7 +27,6 @@ if echo $(bluetoothctl info BC:C7:46:37:3A:19) | grep -q "Connected: yes"; then
 	else
 		symbol_controller="$enabled_color󰝋"
 	fi
-
 else                                       
   symbol_controller="$disabled_color󰖺"
 fi
