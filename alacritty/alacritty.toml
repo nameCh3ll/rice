@@ -21,23 +21,22 @@ padding.y = 10
 decorations = "full"
 opacity = 0.7
 blur = true
-# decorations = "full"
 dynamic_padding = false
 
 [colors.primary]
 background = "0x121d1f"
 foreground = "0x6f7981"
 
-# [colors.normal]
-# black = "0xEA6C73"
-# red = "0xEA6C73"
-# green = "0x91B362"
-# yellow = "0xF9AF4F"
-# blue = "0x53BDFA"
-# magenta = "0xFAE994"
-# cyan = "0x90E1C6"
-# white = "0xC7C7C7"
-#
+[colors.normal]
+black = "0x121d1f"
+red = "0x4a5156"
+green = "0x655559"
+yellow = "0x505d63"
+blue = "0x59666c"
+magenta = "0x677279"
+cyan = "0x707c83"
+white = "0xb2b8bb"
+
 # [colors.bright]
 # black = "0x"
 # red = "0xF07178"

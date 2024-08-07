@@ -1,8 +1,8 @@
-fork = false
+fork = true
 frame = "full"
 idle = true
 maximized = false
-neovim-bin = "/usr/bin/nvim" # in reality found dynamically on $PATH if unset
+neovim-bin = "/usr/bin/nvim" 
 no-multigrid = false
 srgb = false
 tabs = true
@@ -10,23 +10,9 @@ theme = "auto"
 title-hidden = true
 vsync = true
 wsl = true
-
 [font]
-size = 13
+size = 15
 hinting = "full"
-
+edging = "antialias"
 [[font.normal]]
-family = "JetBrainsMono Nerd Font Propo"
-style = "W400"
-
-[[font.normal]]
-family = "Noto Sans CJK SC" 
-style = "Normal"
-
-[[font.bold]]
-family = "JetBrainsMono Nerd Font Propo"
-style = "W400"
-
-[[font.bold]] 
-family = "Noto Sans CJK SC"
-style = "Bold"
+family = "CaskaydiaCove Nerd Font"
