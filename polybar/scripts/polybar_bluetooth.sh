@@ -28,7 +28,7 @@ if echo $(bluetoothctl info BC:C7:46:37:3A:19) | grep -q "Connected: yes"; then
 		symbol_controller="$enabled_color󰝋"
 	fi
 else                                       
-  symbol_controller="$disabled_color󰖺"
+  symbol_controller="$disabled_color󰊴"
 fi
 
 echo "$symbol_headphones $symbol_controller"
