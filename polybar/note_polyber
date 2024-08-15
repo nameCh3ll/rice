@@ -149,3 +149,34 @@ ramp-used-7 = "󰩰 󱐠 󱐠 󱐠 󱐠"
 ; ws-icon-11 = m;󰔍
 ; ws-icon-default = 󰠛 󰋑
 
+; ws-icon-0 = 1;%{T6}󰯴 %{T-}
+; ws-icon-1 = 2;%{T3}󰬟%{T-}
+; ws-icon-2 = 3;%{T3}󰬝%{T-}
+; ws-icon-3 = 4;%{T3}󰬒%{T-}      
+; ws-icon-0 = 1;󰬋%{F#61afef}p
+; ws-icon-0 = 1;%{T2}󰬋 %{T-}
+; ws-icon-0 = 1;󰯴
+; ws-icon-0 = 1;%{t6}󱢢%{t-}
+; ws-icon-1 = 2;%{t6}󱢦%{t-}
+; ws-icon-2 = 3;%{t6}󱢪%{t-}
+; ws-icon-3 = 4;%{t6}󱢮%{t-}
+; ws-icon-4 = 󰈹;%{t6} 󰈹 %{t-}
+; ws-icon-5 = ;%{t6}  %{t-}
+; ws-icon-6 = ;%{t6}  %{t-}
+; ws-icon-7 = ;%{t6} 󰕷 󰇥 %{t-}
+; ws-icon-8 = 󱎓;%{t6}  %{t-}
+; ws-icon-9 = 󰎅;%{t6} 󰫔 %{t-}
+
+
+
+; ws-icon-0 = 1;󰬋%{F#61afef}p
+; ws-icon-0 = 1;%{T6}󱢡 󱢢 %{T-}
+; ws-icon-1 = 2;%{T6}󱢦 %{T-}
+; ws-icon-2 = 3;%{T6}󱢪 %{T-}
+; ws-icon-3 = 4;%{T6}󱢮 󱢡 %{T-}
+; ws-icon-4 = 󰈹;%{T2} 󰈹 󰛳󰛳 %{T-}
+; ws-icon-5 = ;%{T2}  %{T-}
+; ws-icon-6 = ;%{T2} 󰙚%{T-}
+; ws-icon-7 = ;%{T2} 󰕷 %{T-}
+; ws-icon-8 = 󱎓;%{T2} 󱄔 %{T-}
+; ws-icon-9 = 󰎅;%{T2} 󰽰%{T-}
