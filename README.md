@@ -1,4 +1,4 @@
-<h1 align="center"> :herb: name_Ch3ll :herb: </h1>
+<h1 align="center"> :herb: name_Ch3ll :https://img.icons8.com/?size=100&id=m5OCx2Y83RLx&format=png&color=000000: </h1>
 
 <!-- BADGES -->
 </br>
@@ -14,7 +14,7 @@
 <!-- INFORMATION -->
 <h1 align="left"> :blue_book: About</h1> 
 
-<img src="demonstration/1.png" alt="rice󰞮" align="right" width="500px">
+<img src="demonstration/1.png" alt="rice" align="right" width="500px">
 
 </br>
 
