@@ -180,3 +180,10 @@ ramp-used-7 = "󰩰 󱐠 󱐠 󱐠 󱐠"
 ; ws-icon-7 = ;%{T2} 󰕷 %{T-}
 ; ws-icon-8 = 󱎓;%{T2} 󱄔 %{T-}
 ; ws-icon-9 = 󰎅;%{T2} 󰽰%{T-}
+
+; ws-icon-4 = 󰈹;%{T8} 󰈹 %{T-}
+; ws-icon-5 = ;%{T8}   %{T-}
+; ws-icon-6 = ;%{T8}  %{T-}
+; ws-icon-7 = ;%{T8} 󰕷  %{T-}
+; ws-icon-8 = 󱎓;%{T8}󰮭  %{T-}
+; ws-icon-9 = 󰎅;%{T8}󰽰 %{T-}
