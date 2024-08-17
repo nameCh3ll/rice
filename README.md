@@ -31,7 +31,7 @@
 
 <!-- IMAGES -->
 ## 🖼️ Gallery
-![gallery](preview_image/2024-08-17_04-46.png)
+![gallery](preview_image/2024-08-17_04-52.png)
 ![gallery](preview_image/2024-08-17_04-47.png)
 <!-- HOTKEYS -->
 ## 💻 HotKeys
