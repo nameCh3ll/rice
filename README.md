@@ -34,23 +34,29 @@
 ![gallery](preview_image/2024-08-17_04-52.png)
 ![gallery](preview_image/2024-08-17_04-47.png)
 <!-- HOTKEYS -->
-## 💻 HotKeys
-* **Open the terminal** - `super + enter`
-* **Set a random wallpaper** - `super + w`
-* **Switch the layout** - `shift + alt`
-* **Open the application menu** - `super + d`
-* **Derive a random verse from the Bible** - `super + shift + q`
-* **Open the browser in incognito mode** - `super + shift + i`
-* **Recognize the color on the screen** - `super + shift + x`
-* **Lock the screen** - `super + shift + l`
-* **Open the console calendar** - `super + shift + k`
-* **Launch Telegram** - `super + shift + t`
-* **Close the window that is in focus** - `super + c`
-* **Take a screenshot** - `print`
-* **Restart bspwm** - `ctrl + shift + r`
-* **Switch to another desktop** - `super + 1/6`
-* **Move the window to another desktop** - `super + shift + 1/6`
-* **Switch the window to floating mode** - `super + space`
+## :keyboard: HotKeys
+* **Open the terminal** - `alt + enter`
+* **Open the firefox** - `alt + ctrl + f`
+* **Open the discord** - `alt + ctrl + d`
+* **Open the steam** - `alt + ctrl + s`
+* **Open the neovide** - `alt + ctrl + n`
+* **Switch the layout** - `leftshift`
+* **Open the browser in incognito mode** - `alt + ctrl + p`
+* **Launch Telegram** - `alt + shift + t`
+* **Close the window that is in focus** - `alt + w`
+* **Kill the window that is in focus** - `alt + shift + w`
+* **Take a screenshot** - `alt_r`
+* **Restart bspwm** - `alt + r`
+* **Switch to another desktop** - `alt + 1-4`
+* **Switch to firefox desktop** - `alt + f`
+* **Switch to discord desktop** - `alt + d`
+* **Switch to steam desktop** - `alt + s`
+* **Switch to neovide desktop** - `alt + n`
+* **Move the window to another desktop** - `alt + shift + 1-4`
+* **Switch the window to tiled mode** - `alt + t`
+* **Switch the window to floating mode** - `alt + s`
+* **Switch the window to fullscreen mode** - `alt + f`
+* **Switch the window to pseudo-tiled mode** - `alt + p`
 
 The other hotkeys are in `~/.config/sxhkd/sxhkdrc`.
 

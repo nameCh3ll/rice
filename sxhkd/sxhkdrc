@@ -3,7 +3,7 @@ alt + Return
 	alacritty
 
 # screenshot
-Print
+Alt_R
     flameshot gui
 
 # make sxhkd reload its configuration files:
@@ -134,16 +134,13 @@ alt + q
 
 
 #firefox tab ------------------------------------ 
-ctrl + {y}
+ctrl + {y, m}
   { \
     firefox https://www.youtube.com, \
     firefox https://web.telegram.org/k/#774046588 \
   }
 #firefox tab ------------------------------------ 
 
-#Keyboard Layout Change--------------------------
-# ctrl + q 
-#Keyboard Layout Change--------------------------
 
 #skroll -----------------------------------------
 XF86AudioLowerVolume
