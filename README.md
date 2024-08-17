@@ -32,6 +32,7 @@
 ## 🖼️ Gallery
 ![gallery](preview_image/2024-08-17_04-52.png)
 ![gallery](preview_image/2024-08-17_04-47.png)
+![gallery](preview_image/2024-08-17_06-41.png)
 <!-- HOTKEYS -->
 ## :keyboard: HotKeys
 * **Open the terminal** - `alt + enter`
