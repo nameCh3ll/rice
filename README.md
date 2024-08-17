@@ -37,7 +37,7 @@
 * **Open the discord** - `alt + ctrl + d`
 * **Open the steam** - `alt + ctrl + s`
 * **Open the neovide** - `alt + ctrl + n`
-* **Switch the layout** - `leftshift`
+* **Switch the layout** - `rightshift`
 * **Open the browser in incognito mode** - `alt + ctrl + p`
 * **Close the window that is in focus** - `alt + w`
 * **Kill the window that is in focus** - `alt + shift + w`
