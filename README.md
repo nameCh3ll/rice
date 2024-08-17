@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/github/issues/zproger/bspwm-dotfiles?style=for-the-badge">
   </br>
   <img src="https://img.shields.io/github/languages/count/zproger/bspwm-dotfiles?style=for-the-badge">
-  <img src="https://img.shields.io/github/repo-size/Zproger/bspwm-dotfiles?style=for-the-badge">
+  <img src="https://img.shields.io/github/repo-size/nameCh3ll/rice">
   </br>
 </p>
 
