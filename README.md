@@ -1,7 +1,7 @@
 <h1 align="center"> :rose: name_Ch3ll :rose: </h1>
 
 <!-- BADGES -->
-</br>
+<!--</br>-->
 
 <!--<p align="center">-->
 <!--  <img src="https://img.shields.io/github/issues/zproger/bspwm-dotfiles?style=for-the-badge">-->
@@ -18,7 +18,7 @@
 
 </br>
 
- - OS: [**`Arch Linux`**](https://archlinux.org/)
+ - OS: [**`btw, i use Arch Linux`**](https://archlinux.org/)
  - WM: [**`BSPWM`**](https://github.com/baskerville/bspwm)
  - Bar: [**`Polybar`**](https://github.com/polybar/polybar)
  - Compositor: [**`Picom`**](https://github.com/yshui/picom)
@@ -31,11 +31,8 @@
 
 <!-- IMAGES -->
 ## 🖼️ Gallery
-![gallery](preview_image/1.png)
-![gallery](preview_image/2.png)
-![gallery](preview_image/3.png)
-![gallery](preview_image/4.png)
-
+![gallery](preview_image/2024-08-17_04-46.png)
+![gallery](preview_image/2024-08-17_04-47.png)
 <!-- HOTKEYS -->
 ## 💻 HotKeys
 * **Open the terminal** - `super + enter`
