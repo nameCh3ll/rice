@@ -4,10 +4,10 @@
 </br>
 
 <p align="center">
-  <img src="https://img.shields.io/github/issues/zproger/bspwm-dotfiles?style=for-the-badge">
+  <img src="https://img.shields.io/github/stars/nameCh3ll/nameCh3ll%2Frice">
   </br>
   <img src="https://img.shields.io/github/languages/count/zproger/bspwm-dotfiles?style=for-the-badge">
-  <img src="https://img.shields.io/github/repo-size/nameCh3ll/rice">
+  <img src="https://img.shields.io/github/repo-size/nameCh3ll/rice?style=for-the-badge">
   </br>
 </p>
 
