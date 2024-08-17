@@ -1,4 +1,4 @@
-<h1 align="center"> :rose: name_Ch3ll 󰞮 :rose: </h1>
+<h1 align="center"> :rose: name_Ch3ll :rose: </h1>
 
 <!-- BADGES -->
 </br>
