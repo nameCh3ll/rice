@@ -4,10 +4,11 @@
 </br>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/nameCh3ll/nameCh3ll%2Frice">
+  <img src="
+https://img.shields.io/github/stars/nameCh3ll/rice?style=flat&labelColor=%23253b3f%20&color=%232f2627">
   </br>
-  <img src="https://img.shields.io/github/languages/count/zproger/bspwm-dotfiles?style=for-the-badge">
-  <img src="https://img.shields.io/github/repo-size/nameCh3ll/rice?style=for-the-badge">
+  <img src="https://img.shields.io/github/languages/count/zproger/bspwm-dotfiles?style=flat&labelColor=%23253b3f%20&color=%232f2627">
+  <img src="https://img.shields.io/github/repo-size/nameCh3ll/rice?style=flat&labelColor=%23253b3f%20&color=%232f2627">
   </br>
 </p>
 
