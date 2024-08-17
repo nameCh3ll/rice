@@ -14,7 +14,7 @@
 <!-- INFORMATION -->
 <h1 align="left"> :blue_book: About</h1> 
 
-<img src="demonstration/1.png" alt="rice" align="right" width="500px">
+<img src="preview_image/2024-08-17_04-52.png" alt="rice" align="right" width="500px">
 
 </br>
 
@@ -27,7 +27,6 @@
  - Shell: [**`Fish`**](https://github.com/fish-shell/fish-shell)
 
 </br>
-
 
 <!-- IMAGES -->
 ## 🖼️ Gallery
@@ -42,7 +41,6 @@
 * **Open the neovide** - `alt + ctrl + n`
 * **Switch the layout** - `leftshift`
 * **Open the browser in incognito mode** - `alt + ctrl + p`
-* **Launch Telegram** - `alt + shift + t`
 * **Close the window that is in focus** - `alt + w`
 * **Kill the window that is in focus** - `alt + shift + w`
 * **Take a screenshot** - `alt_r`
