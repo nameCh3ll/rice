@@ -1,15 +1,15 @@
 <h1 align="center"> :rose: name_Ch3ll :rose: </h1>
 
 <!-- BADGES -->
-<!--</br>-->
+</br>
 
-<!--<p align="center">-->
-<!--  <img src="https://img.shields.io/github/issues/zproger/bspwm-dotfiles?style=for-the-badge">-->
-<!--  </br>-->
-<!--  <img src="https://img.shields.io/github/languages/count/zproger/bspwm-dotfiles?style=for-the-badge">-->
-<!--  <img src="https://img.shields.io/github/repo-size/Zproger/bspwm-dotfiles?style=for-the-badge">-->
-<!--  </br>-->
-<!--</p>-->
+<p align="center">
+  <img src="https://img.shields.io/github/issues/zproger/bspwm-dotfiles?style=for-the-badge">
+  </br>
+  <img src="https://img.shields.io/github/languages/count/zproger/bspwm-dotfiles?style=for-the-badge">
+  <img src="https://img.shields.io/github/repo-size/Zproger/bspwm-dotfiles?style=for-the-badge">
+  </br>
+</p>
 
 <!-- INFORMATION -->
 <h1 align="left"> :blue_book: About</h1> 
