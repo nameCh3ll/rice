@@ -16,6 +16,7 @@
 </br>
 
  - OS: [**`btw, i use Arch Linux`**](https://archlinux.org/)
+ - IDE: [**`btw, i use nvim`**](https://neovim.io)
  - WM: [**`BSPWM`**](https://github.com/baskerville/bspwm)
  - Bar: [**`Polybar`**](https://github.com/polybar/polybar)
  - Compositor: [**`Picom`**](https://github.com/yshui/picom)
