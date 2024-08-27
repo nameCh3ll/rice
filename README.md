@@ -35,11 +35,9 @@
 <!-- POLYBAR -->
 ## :rice_cracker: Custom module
 
-### volume:
-![gif](./preview_image/volume.gif)
+### volume: ![gif](./preview_image/volume.gif)
 
-### RAM memory: 
-![gif](./preview_image/ram.gif)
+### RAM memory: ![gif](./preview_image/ram.gif)
 
 ### Bluetooth connection and charge percentage: 
 ![gif](./preview_image/blue.gif)
