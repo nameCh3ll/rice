@@ -39,8 +39,8 @@
 <img src="./preview_image/volume.gif" alt="rice" align="right" width="90px">
 <h3 align="left"> RAM </h3>
 <img src="./preview_image/ram.gif" alt="rice" align="right" width="90px">
-<h3 align="left"> Bluetooth </h3>
-<img src="./preview_image/blue.gif" alt="rice" align="right" width="90px">
+<h3 align="left"> <img src="./preview_image/blue.gif" alt="rice" align="right" width="90px"> Bluetooth </h3>
+
 <!--### volume: ![gif](./preview_image/volume.gif)-->
 
 <!--### RAM memory: ![gif](./preview_image/ram.gif)-->
