@@ -35,22 +35,21 @@
 <!-- POLYBAR -->
 ## :rice_cracker: Modules
 
-<h3 align="left"> volume </h3>
-<img src="./preview_image/volume.gif" alt="rice" align="left">
-<h3 align="left"> RAM </h3>
-<img src="./preview_image/ram.gif" alt="rice" align="left">
-<h3 align="left"> Bluetooth </h3>
-<img src="./preview_image/blue.gif" alt="rice" align="left">
-<!--### volume: ![gif](./preview_image/volume.gif)-->
+<!--<h3 align="left"> volume </h3>-->
+<!--<img src="./preview_image/volume.gif" alt="rice" align="left">-->
+<!--<h3 align="left"> RAM </h3>-->
+<!--<img src="./preview_image/ram.gif" alt="rice" align="left">-->
+<!--<h3 align="left"> Bluetooth </h3>-->
+<!--<img src="./preview_image/blue.gif" alt="rice" align="left">-->
+### volume: 
+<img src="./preview_image/volume" alt="rice" align="center" width="20" height="20">
 
-<!--### RAM memory: ![gif](./preview_image/ram.gif)-->
-<!---->
-<!--### Bluetooth connection and charge percentage: -->
-<!--![gif](./preview_image/blue.gif)-->
-<!---->
-<!--### Layout switching:-->
-<!--![gif](./preview_image/layout-switching.gif)-->
-<!---->
+### RAM memory: ![gif](./preview_image/ram.gif)
+
+### Bluetooth connection and charge percentage: ![gif](./preview_image/blue.gif)
+
+### Layout switching: ![gif](./preview_image/layout-switching.gif)
+
 <!-- HOTKEYS -->
 ## :keyboard: HotKeys
 * **Open the terminal** - `alt + enter`
