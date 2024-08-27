@@ -35,12 +35,12 @@
 <!-- POLYBAR -->
 ## :rice_cracker: Custom module
 
-<h3 align="center"> volume </h1>
-<img src="./preview_image/volume.gif" alt="rice" align="right" width="500px">
-<h3 align="center"> RAM </h1>
-<img src="./preview_image/ram.gif" alt="rice" align="right" width="500px">
-<h3 align="center"> Bluetooth </h1>
-<img src="./preview_image/blue.gif" alt="rice" align="right" width="500px">
+<h3 align="center"> volume </h3>
+<img src="./preview_image/volume.gif" alt="rice" align="centet" width="500px">
+<h3 align="center"> RAM </h3>
+<img src="./preview_image/ram.gif" alt="rice" align="centet" width="500px">
+<h3 align="center"> Bluetooth </h3>
+<img src="./preview_image/blue.gif" alt="rice" align="centet" width="500px">
 <!--### volume: ![gif](./preview_image/volume.gif)-->
 
 <!--### RAM memory: ![gif](./preview_image/ram.gif)-->
