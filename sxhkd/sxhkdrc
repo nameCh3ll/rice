@@ -71,7 +71,7 @@ alt + {grave,Tab}
 # 	bspc node {older,newer} -f; \
 # 	bspc wm -h on
 
-alt + ctrl + {p, h, d, f, n, s, m}
+alt + ctrl + {p, h, d, f, n, s, m, o}
   { \
     firefox --private-window, \
     heroic, \
@@ -79,12 +79,13 @@ alt + ctrl + {p, h, d, f, n, s, m}
     firefox, \
     neovide, \
     steam, \
-    ~/youtube-music-bin/youtube-music.sh \
+    ~/youtube-music-bin/youtube-music.sh, \
+    obsidian, \
   }
 
 # focus or send to the given desktop
-alt + {_,shift + } {1-4, f, d, s, n, g, m}
-	bspc {desktop -f,node -d} '^{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}'
+alt + {_,shift + } {1-4, f, d, s, n, g, m, o}
+	bspc {desktop -f,node -d} '^{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}'
 # preselect
 
 
