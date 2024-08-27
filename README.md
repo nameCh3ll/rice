@@ -36,17 +36,21 @@
 ## :rice_cracker: Custom module
 
 <h3 align="center"> volume </h1>
-<img src="preview_image/ram.gif" alt="rice" align="right" width="500px">
+<img src="./preview_image/volume.gif" alt="rice" align="right" width="500px">
+<h3 align="center"> RAM </h1>
+<img src="./preview_image/ram.gif" alt="rice" align="right" width="500px">
+<h3 align="center"> Bluetooth </h1>
+<img src="./preview_image/blue.gif" alt="rice" align="right" width="500px">
 <!--### volume: ![gif](./preview_image/volume.gif)-->
 
-### RAM memory: ![gif](./preview_image/ram.gif)
-
-### Bluetooth connection and charge percentage: 
-![gif](./preview_image/blue.gif)
-
-### Layout switching:
-![gif](./preview_image/layout-switching.gif)
-
+<!--### RAM memory: ![gif](./preview_image/ram.gif)-->
+<!---->
+<!--### Bluetooth connection and charge percentage: -->
+<!--![gif](./preview_image/blue.gif)-->
+<!---->
+<!--### Layout switching:-->
+<!--![gif](./preview_image/layout-switching.gif)-->
+<!---->
 <!-- HOTKEYS -->
 ## :keyboard: HotKeys
 * **Open the terminal** - `alt + enter`
