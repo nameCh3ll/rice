@@ -35,7 +35,9 @@
 <!-- POLYBAR -->
 ## :rice_cracker: Custom module
 
-### volume: ![gif](./preview_image/volume.gif)
+<h3 align="center"> volume </h1>
+<img src="preview_image/ram.gif" alt="rice" align="right" width="500px">
+<!--### volume: ![gif](./preview_image/volume.gif)-->
 
 ### RAM memory: ![gif](./preview_image/ram.gif)
 
