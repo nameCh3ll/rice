@@ -35,16 +35,16 @@
 <!-- POLYBAR -->
 ## :rice_cracker: Modules
 
-### Volume: 
+### :sound: Volume: 
 <img src="./preview_image/volume.gif" alt="rice" align="center"  height="60px">
 
-### RAM memory: 
+### :minidisc: RAM memory: 
 <img src="./preview_image/ram.gif" alt="rice" align="center"  height="60px">
 
-### Bluetooth connection and charge percentage:
+### :fax: Bluetooth connection and charge percentage:
 <img src="./preview_image/blue.gif" alt="rice" align="center"  height="60px">
 
-### Layout switching:
+### :unlock: Layout switching:
 <img src="./preview_image/layout-switching.gif" alt="rice" align="center"  height="60px">
 
 <!-- HOTKEYS -->
