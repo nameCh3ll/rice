@@ -35,15 +35,12 @@
 <!-- POLYBAR -->
 ## :rice_cracker: Modules
 
-<img src="./preview_image/volume.gif" alt="rice" align="right" width="90px">
-<img src="./preview_image/ram.gif" alt="rice" align="right" width="90px">
-<img src="./preview_image/blue.gif" alt="rice" align="right" width="90px">
 
 </br>
 
- - Shell:
- - Shell:
- - Shell: 
+ - Shell:<img src="./preview_image/volume.gif" alt="rice" align="right" width="90px">
+ - Shell:<img src="./preview_image/ram.gif" alt="rice" align="right" width="90px">
+ - Shell:<img src="./preview_image/blue.gif" alt="rice" align="right" width="90px">
 
 </br>
 <!--<h3 align="left"> volume </h3>-->
