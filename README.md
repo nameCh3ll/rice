@@ -35,20 +35,12 @@
 <!-- POLYBAR -->
 ## :rice_cracker: Modules
 
-
-</br>
-
- - Shell:<img src="./preview_image/volume.gif" alt="rice" align="right" width="90px">
- - Shell:<img src="./preview_image/ram.gif" alt="rice" align="right" width="90px">
- - Shell:<img src="./preview_image/blue.gif" alt="rice" align="right" width="90px">
-
-</br>
-<!--<h3 align="left"> volume </h3>-->
-<!--<img src="./preview_image/volume.gif" alt="rice" align="right" width="90px">-->
-<!--<h3 align="left"> RAM </h3>-->
-<!--<img src="./preview_image/ram.gif" alt="rice" align="right" width="90px">-->
-<!--<h3 align="left"> Bluetooth </h3>-->
-<!--<img src="./preview_image/blue.gif" alt="rice" align="right" width="90px">-->
+<h3 align="left"> volume </h3>
+<img src="./preview_image/volume.gif" alt="rice" align="right">
+<h3 align="left"> RAM </h3>
+<img src="./preview_image/ram.gif" alt="rice" align="right">
+<h3 align="left"> Bluetooth </h3>
+<img src="./preview_image/blue.gif" alt="rice" align="right">
 <!--### volume: ![gif](./preview_image/volume.gif)-->
 
 <!--### RAM memory: ![gif](./preview_image/ram.gif)-->
