@@ -35,20 +35,17 @@
 <!-- POLYBAR -->
 ## :rice_cracker: Modules
 
-<!--<h3 align="left"> volume </h3>-->
-<!--<img src="./preview_image/volume.gif" alt="rice" align="left">-->
-<!--<h3 align="left"> RAM </h3>-->
-<!--<img src="./preview_image/ram.gif" alt="rice" align="left">-->
-<!--<h3 align="left"> Bluetooth </h3>-->
-<!--<img src="./preview_image/blue.gif" alt="rice" align="left">-->
-### volume: 
-<img src="./preview_image/volume" alt="rice" align="center" width="20" height="20">
+### Volume: 
+<img src="./preview_image/volume.gif" alt="rice" align="center"  height="60px">
 
-### RAM memory: ![gif](./preview_image/ram.gif)
+### RAM memory: 
+<img src="./preview_image/ram.gif" alt="rice" align="center"  height="60px">
 
-### Bluetooth connection and charge percentage: ![gif](./preview_image/blue.gif)
+### Bluetooth connection and charge percentage:
+<img src="./preview_image/blue.gif" alt="rice" align="center"  height="60px">
 
-### Layout switching: ![gif](./preview_image/layout-switching.gif)
+### Layout switching:
+<img src="./preview_image/layout-switching.gif" alt="rice" align="center"  height="60px">
 
 <!-- HOTKEYS -->
 ## :keyboard: HotKeys
