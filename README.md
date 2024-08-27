@@ -34,9 +34,19 @@
 
 <!-- POLYBAR -->
 ## :rice_cracker: Custom module
+
+### volume:
+![gif](./preview_image/volume.gif)
+
+### RAM memory: 
 ![gif](./preview_image/ram.gif)
-![gif](./preview_image/ram.gif)
-![gif](./preview_image/ram.gif)
+
+### Bluetooth connection and charge percentage: 
+![gif](./preview_image/blue.gif)
+
+### Layout switching:
+![gif](./preview_image/layout-switching.gif)
+
 <!-- HOTKEYS -->
 ## :keyboard: HotKeys
 * **Open the terminal** - `alt + enter`
