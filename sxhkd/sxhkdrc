@@ -10,7 +10,7 @@ Alt_R
 alt + Escape
 	pkill -USR1 -x sxhkd
 
-# bspwm hotkeys
+#---------------------bspwm hotkeys---------------------#
 
 # quit/restart bspwm
 alt + r
@@ -71,7 +71,7 @@ alt + {grave,Tab}
 # 	bspc node {older,newer} -f; \
 # 	bspc wm -h on
 
-alt + ctrl + {p, h, d, f, n, s, m, o}
+alt + ctrl + {p, h, d, f, n, s, m, o, t}
   { \
     firefox --private-window, \
     heroic, \
@@ -79,13 +79,14 @@ alt + ctrl + {p, h, d, f, n, s, m, o}
     firefox, \
     neovide, \
     steam, \
-    ~/youtube-music-bin/youtube-music.sh, \
+    youtube-music, \
     obsidian, \
+    telegram-desktop, \
   }
 
 # focus or send to the given desktop
-alt + {_,shift + } {1-4, f, d, s, n, g, m, o}
-	bspc {desktop -f,node -d} '^{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}'
+alt + {_,shift + } {1-4, f, d, s, t, n, g, m, o}
+	bspc {desktop -f,node -d} '^{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}'
 # preselect
 
 
@@ -115,7 +116,7 @@ alt + {_,shift + } {1-4, f, d, s, n, g, m, o}
 # alt + {h, j, k, l}
 # 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
-#bluetootch(pods, geypad)
+#bluetootch(pods, geypad) ------------------------
 alt + {F1, F2, F3, F4}
   { \
     bluetoothctl connect A4:16:C0:94:C7:07, \
@@ -123,10 +124,25 @@ alt + {F1, F2, F3, F4}
     bluetoothctl disconnect A4:16:C0:94:C7:07, \
     bluetoothctl disconnect BC:C7:46:37:3A:19 \
   }
+#bluetootch(pods, geypad) ------------------------
 
-#wifi
-ctrl + alt + w
-  nmcli d w r; nmcli d d wlan0; nmcli d w c name_Chell password 123456789
+
+#wifi --------------------------------------------
+ctrl + alt {_,shift + } + w
+  { \
+    nmcli d w r; nmcli d w c name_Chell password 123456789, \
+    nmcli d d wlan0 \
+  }
+#wifi --------------------------------------------
+
+
+#hiddify -----------------------------------------
+ctrl + alt + q
+    HiddifyCli run -c ~/.local/share/app.hiddify.com/current-config.json -d ~/c.json &
+ctrl + alt + shift + q
+    pkill HiddifyCli 
+#hiddify -----------------------------------------
+
 
 #stalcraft -------------------------------------- 
 alt + q
