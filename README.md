@@ -1,15 +1,22 @@
 <h1 align="center"> :rose: name_Ch3ll :rose: </h1>
- <style>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Круглые изображения</title>
+  <style>
    .round {
     border-radius: 100px; /* Радиус скругления */
     border: 3px solid green; /* Параметры рамки */
     box-shadow: 0 0 7px #666; /* Параметры тени */
    }
   </style>
-</head>
+ </head>
  <body>
-   <p><img src="preview_image/2024-08-17_04-52.png" alt="" class="round"></p>
+   <p><img src="preview_image/2024-08-17_04-52.png" alt="" class="round">
+      <img src="preview_image/2024-08-17_04-52.png" alt="" class="round">
+      <img src="preview_image/2024-08-17_04-52.png"alt="" class="round"></p>
  </body>
+</html>
 <!-- BADGES -->
 </br>
 
