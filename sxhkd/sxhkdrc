@@ -138,7 +138,8 @@ ctrl + alt {_,shift + } + w
 
 #hiddify -----------------------------------------
 ctrl + alt + q
-    HiddifyCli run -c ~/.local/share/app.hiddify.com/current-config.json -d ~/c.json &
+	~/.config/hiddify/HiddifyCli run -c ~/.config/hiddify/vless_config.json -d ~/.config/hiddify/hiddify.json
+
 ctrl + alt + shift + q
     pkill HiddifyCli 
 #hiddify -----------------------------------------

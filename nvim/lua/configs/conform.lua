@@ -1,8 +1,8 @@
 local options = {
   formatters_by_ft = {
     lua = { "stylua" },
-    css = { "prettier" },
-    html = { "prettier" },
+    -- css = { "prettier" },
+    -- html = { "prettier" },
   },
 
   -- format_on_save = {
@@ -12,4 +12,4 @@ local options = {
   -- },
 }
 
-require("conform").setup(options)
+return options
