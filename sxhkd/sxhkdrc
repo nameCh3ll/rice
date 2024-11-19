@@ -147,7 +147,7 @@ ctrl + alt + shift + q
 
 #stalcraft -------------------------------------- 
 alt + q
-  notify-send 'stalcraft 󱡝' "$(sh ~/.config/custom_script/script_when_mission.sh)" -t 1500
+  notify-send 'stalcraft 󱡝' "$(sh ~/.config/polybar/scripts/when_emission_stalcraft.sh)" -t 1500
 #stalcraft -------------------------------------- 
 
 
